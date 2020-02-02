@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="grandcontainer">
+            <div class="reset-score">Reset best score</div>
+            <div class="scoreboard">
+                <div id="score">Score: 0</div>
+            </div>
+            <div id="ground">
+            </div>
+
+            <div class="gameover">
+                <div class="title">Game Over</div>
+                <div class="description">Final score:</div>
+                <div class="final-score">0</div>
+                <div class="best">New best score!</div>
+                <button class="try-again" onclick="restartGame()">Play again!</button>
+            </div>
+        </div>
+
+        <script
+          src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
